@@ -142,8 +142,10 @@ section .card{
 }
 section .mockup{
     position: absolute;
-    top:50%; right:-200px;
-    opacity: 0;
+    top:50%; right:-200px;    
+    opacity: 0;    
+    width:80%;
+    height:70vh;    
     transition: .6s;
     transition-delay: .3s;
     transform: translateY(-50%);
@@ -159,6 +161,13 @@ section.on .mockup{
     top:50%; right:0px;
     transform: translateY(-50%);
     opacity: 1;
+}
+
+/* .mokup bgimg */
+#work01 .mockup{
+    background: url("../img/work01_mockup.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 /* menu */
