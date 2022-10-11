@@ -24,7 +24,7 @@ function go(e){
     offset = innerHeight * sectionCounter; //innerWidth, scrollLeft
     $("html, body").stop().animate({scrollTop:offset},600,"easeInOutExpo");
 
-    setTimeout(activeMenu,300);
+    setTimeout(activeMenu,300);    
 }
 
 function activeMenu(){ //휠을 굴렸을때 메뉴이동
@@ -102,3 +102,5 @@ $(".chart").click(
             });
     }    
 );
+
+
