@@ -103,4 +103,15 @@ $(".chart").click(
     }    
 );
 
+/* #bxslider */
+$('#bxslider').bxSlider({
+    auto: true,
+    autoControls: true,
+    stopAutoOnClick: true,
+    captions: true,
+    pager: true,
+    slideWidth: 0,
+    touchEnabled : false
+  });
+
 

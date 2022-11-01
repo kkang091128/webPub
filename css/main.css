@@ -179,6 +179,15 @@ section .mockup:hover:after{
     content: "자세히 보기";
     opacity: 1;
 }
+section:last-child .mockup:after{
+    content:"";    
+    display: none;
+}
+section:last-child .mockup{
+    cursor: default;
+    width:70%;
+    padding-right:10%;
+}
 section.on .card{
     left:50px;
     opacity: 1;
